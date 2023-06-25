@@ -262,9 +262,13 @@ void triangle_rasterize_texture(Vec3f* pts, Vec3f* texs, Vec3f* texture_values, 
 			{
 				P.z += pts[i].z * coord[i];
 				//if(i < 2)
-				texcoord = texcoord + texs[i] * coord[i];
-			}
 
+			        // Error 1
+				//This afican head need circular rotation to have the right texture
+				//texcoord = texcoord + texs[i] * coord[i];
+			}
+			//Fix Error 1
+			texcoord = texs[1] * coord[0] + texs[2] * coord[1] + texs[0] * coord[2];
 			
 			
 			if (zbuffer[int(P.x + P.y * width)] < P.z)
