@@ -1,5 +1,5 @@
 # C-Rasterizer
-Rasterizer in C++ to study how Graphics Driver work.
+Rasterizer in C++ to study how Graphics Driver work without third party library. The result is simillar to using OpenGL or Vulkan to render images!
 
 Full Rasterize with texture:
 
