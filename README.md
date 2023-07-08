@@ -1,7 +1,7 @@
 # C-Rasterizer
 Rasterizer in C++ to study how Graphics Driver work without third party library. The result is simillar to images rendered by OpenGL or Vulkan!
 
-#Features
+# Features
 
 - Rasterize line and Triangle.
 - Graphics Pipeline.
@@ -10,7 +10,7 @@ Rasterizer in C++ to study how Graphics Driver work without third party library.
 - Texture Mapping.
 - Gourad Shading.
   
-#To Do
+# To Do
 
 - Normal Mapping.
 - Shadow Mapping.
