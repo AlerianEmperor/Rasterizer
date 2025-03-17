@@ -9,6 +9,7 @@ Rasterizer in C++ to study how Graphics Driver work without third party library.
 - Camera Movement. 
 - Texture Mapping.
 - Gourad Shading.
+- Shadow mapping with perspective inverse.
   
 # To Do
 
