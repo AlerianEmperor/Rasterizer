@@ -9,13 +9,14 @@ Rasterizer in C++ to study how Graphics Driver work without third party library.
 - Camera Movement. 
 - Texture Mapping.
 - Gourad Shading.
+- Normal Mapping.
 - Shadow mapping with perspective inverse.
   
 # To Do
-
-- Normal Mapping.
-- Shadow Mapping.
 - PBR.
+
+![shadow_with_windows](https://github.com/user-attachments/assets/faa7b292-7d26-4031-9586-9cff8ec2c232)
+
   
 Full Rasterize with texture:
 
