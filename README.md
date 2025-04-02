@@ -11,6 +11,7 @@ Rasterizer in C++ to study how Graphics Driver work without third party library.
 - Gourad Shading.
 - Normal Mapping.
 - Shadow mapping with perspective inverse.
+- build in win32.
   
 # To Do
 - PBR.
