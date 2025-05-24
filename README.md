@@ -12,6 +12,7 @@ Rasterizer in C++ to study how Graphics Driver work without third party library.
 - Normal Mapping.
 - Shadow mapping with perspective inverse.
 - build in win32.
+- SSAO.
   
 # To Do
 - PBR.
